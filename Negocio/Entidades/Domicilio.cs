@@ -14,7 +14,8 @@ namespace TPGrupo4.Clases
         [Required]
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string Calle { get; set; }
-  
+
+   
         [Range(1000, 9999)]
         [Required]
         public int CodigoPostal { get; set; }

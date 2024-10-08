@@ -19,10 +19,8 @@ namespace TPGrupo4.Clases
         public string Nombre { get; set; }
 
         [Required]
-        public int Id { get; set; }
 
         [MaxLength(30)]
-        [Required]
         public string Marca { get; set; }
 
         [Range(0.01, double.MaxValue)]

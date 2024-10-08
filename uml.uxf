@@ -1,0 +1,46 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>88</x><y>129</y><w>264</w><h>180</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Cliente
+--
++ usuario: String
++ contrasenia: String
++ dni: String
++ nombreCompleto: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>604</x><y>129</y><w>264</w><h>132</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Venta
+--
++ idVenta: int
++ cantObjeto: int
++ fechaCompra: String
++ precioTotal: double
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>129</y><w>288</w><h>48</h></coordinates><panel_attributes>lt=&lt;-
++ vendedor</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>165</y><w>288</w><h>48</h></coordinates><panel_attributes>lt=&lt;-
++ comprador</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>616</x><y>405</y><w>264</w><h>132</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Objeto
+--
++ nombre : String
++ idObjeto: int
++ marca: String 
++ precio: double
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>736</x><y>249</y><w>72</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
++ item</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1072</x><y>129</y><w>264</w><h>144</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+medioPago
+--
+_+TRANFERENCIA_
+_+WALLET_
+_+ACORDAR_CON_VENDEDOR_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>856</x><y>177</y><w>240</w><h>48</h></coordinates><panel_attributes>lt=&lt;-
++ metodoDePago</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>88</x><y>453</y><w>264</w><h>144</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Domicilio
+--
++ calle: String
++ codigoPostal: int
++ esCasa: boolean
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>297</y><w>108</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
++ domicilio</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element></diagram>
