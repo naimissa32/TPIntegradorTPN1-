@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPGrupo4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebb226b41036d965d8daab74c7a5cd106729decf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+017780bf07704b82632d946c01150169806e6a49")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPGrupo4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPGrupo4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
